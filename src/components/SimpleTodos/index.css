@@ -1,0 +1,35 @@
+/* Write your CSS here */
+.app-container {
+  background-color: #ffc2a0;
+  border: 4px solid #ff8542;
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+  padding-top: 74px;
+  padding-bottom: 74px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 24px;
+  background-color: #ffffff;
+  padding: 74px;
+  width: 90%;
+}
+
+.container-heading {
+  color: #ff8542;
+  font-family: 'Roboto';
+  margin-bottom: 98px;
+  font-size: 58px;
+}
+
+.todos-container {
+  list-style-type: none;
+}

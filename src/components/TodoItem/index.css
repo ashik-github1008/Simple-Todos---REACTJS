@@ -1,0 +1,27 @@
+/* Write your CSS here */
+
+.todo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-title {
+  font-size: 30px;
+  font-family: 'Roboto';
+}
+
+.delete-button {
+  color: #ff0b37;
+  background-color: transparent;
+  border: 3px solid #ff0b37;
+  border-radius: 12px;
+  padding: 18px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 25px;
+  font-weight: 500;
+  cursor: pointer;
+  /* align-self: flex-start; */
+}
